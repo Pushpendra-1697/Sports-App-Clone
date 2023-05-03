@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    position: fixed;
+    top: 0.1px;
+    z-index: 100;
+    padding: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Link:hover {
+    color: red;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px;
+    color: green;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.social-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    background-color: white;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+}
+
+.social-icon:hover {
+    -webkit-transform: rotate(360deg) scale(1.2);
+    transform: rotate(360deg) scale(1.2);
+    background-color: black;
+    color: white;
+}
