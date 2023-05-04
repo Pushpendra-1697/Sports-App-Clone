@@ -31,12 +31,12 @@ Clone the Repository from Github. Then do the following steps:
 ```bash
     npm install
 
-For Frontend
+# For Frontend
     npm run start
     (Or)
     npm start
 
-For Backend
+# For Backend
     npm run server
 ```
 
