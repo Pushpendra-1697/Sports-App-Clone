@@ -5,7 +5,7 @@ import { ADD_EVENT, EVENT_ERROR, EVENT_LOADING, EVENT_SUCCESS } from "./event.ty
 export const getEvents = (page = 1, eventName, q) => async (dispatch) => {
     dispatch({ type: EVENT_LOADING });
     try {
-        let res = await axios.get(`${backend_url}/events/get?page=${page}&limit=10&name=${eventName}&q=${q}`);
+        let res = await axios.get(`${backend_url}/events/get?page=${page}&limit=7&name=${eventName}&q=${q}`);
         dispatch({ type: EVENT_SUCCESS, payload: res.data });
     } catch (e) {
         dispatch({ type: EVENT_ERROR, payload: e.message });
