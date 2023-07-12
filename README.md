@@ -6,7 +6,7 @@ This application for sports enthusiasts to find and join sports events near them
 
 # Frontend Verecel Deployed Link :
 
-player-app-khaki.vercel.app
+https://player-app-khaki.vercel.app/
 
 # Backend Cyclic Deployed Link:
 
